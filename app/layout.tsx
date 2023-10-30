@@ -14,7 +14,8 @@ const fonte = Rajdhani({ subsets: ["latin"], weight: ["500"] });
 
 export const metadata: Metadata = {
   authors: [{ name: "Josh", url: "" }],
-  title: "Seu site perfeito para loja e atendimento virtual!",
+  title:
+    "Rolibelt comercial, o melhores preços de rolamentos em atacado você encontra por aqui!",
   description: "Loja teste feita para modelo de apresentação",
 };
 

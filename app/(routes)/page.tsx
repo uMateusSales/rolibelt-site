@@ -11,9 +11,9 @@ import { Separator } from "@/components/ui/separator";
 export const revalidate = 9000;
 
 const HomePage = async () => {
-  const billboard = await getBillboard("f81a927b-84af-4dc0-b084-5ec234b97542");
+  const billboard = await getBillboard("777e2b4c-8605-4da7-85c1-53e580c7897d");
   const produtos = await getProducts({
-    storeId: "57c9eca8-2afa-495d-8a84-a3b0a6dc6e78",
+    storeId: "a617f7e9-0a25-423a-81f0-91aed35f0442",
   });
 
   return (
