@@ -74,8 +74,12 @@ const ProductContainer: React.FC<ProductContainerProps> = ({ data }) => {
           <p className=" text-zinc-900 sm:text-base md:text-lg">{data.name}</p>
           <p className="text-sm text-zinc-600 mt-2">{data.category.name}</p>
         </div>
-        <div className="flex flex-col items-center justify-center gap-3">
+        <div className="flex flex-col items-center justify-center gap-6">
           <Currency value={data.price} />
+          <div className="flex gap-3 items-center">
+            <span> Custo por unidade </span>
+            <Currency value={Number(data.price) / 50} />
+          </div>
           <ButtonAddToCart
             className="text-xs sm:text-sm p-2 max-h-8 space-y-2 mt-5"
             data={data}

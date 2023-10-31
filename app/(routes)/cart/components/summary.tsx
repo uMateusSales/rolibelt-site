@@ -27,7 +27,7 @@ const Summary = () => {
       document.documentElement.clientWidth ||
       document.body.clientWidth;
 
-    const phoneWhats = "";
+    const phoneWhats = "558192664297";
 
     const textWhats = `########  PEDIDO REALIZADO NO SITE  ######## 
     
@@ -45,7 +45,7 @@ const Summary = () => {
         `
     )}
     
-    -------------- TOTAL: *R$${totalPrice},00* -------------`;
+    --- TOTAL: *R$${totalPrice},00* ---`;
 
     const whatsMobile =
       `whatsapp://send?phone=${phoneWhats}&text=` +
