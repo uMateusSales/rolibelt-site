@@ -28,7 +28,7 @@ const ContactUs = () => {
       document.documentElement.clientWidth ||
       document.body.clientWidth;
 
-    const phoneWhats = "";
+    const phoneWhats = "558192664297";
 
     const textWhats = ` 
         *Oi tudo bem? estava dando uma olhada no seu catálogo e gostaria gostaria de fazer uma cotação de um produto!*

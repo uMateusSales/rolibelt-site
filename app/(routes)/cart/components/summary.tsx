@@ -31,15 +31,17 @@ const Summary = () => {
 
     const textWhats = `########  PEDIDO REALIZADO NO SITE  ######## 
     
-    ################################
+    ###############
     ${cart?.map(
       (i) =>
         `
          Produto: *${i.name}* 
         
-         Preço: *R$${i.price},00*     
+         Preço por lote: *R$${i.price},00*     
 
-         Quantidade: *${i.quantity}*   
+         Quantidade lotes: *${i.quantity}* 
+         
+         Custo unitario: *${Number(i.price) / 50}*
         
         ################################
         `
