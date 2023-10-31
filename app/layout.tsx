@@ -13,10 +13,11 @@ import LoadingSkeleton from "@/components/ui/loading-skeleton";
 const fonte = Rajdhani({ subsets: ["latin"], weight: ["500"] });
 
 export const metadata: Metadata = {
-  authors: [{ name: "Josh", url: "" }],
+  authors: [{ name: "Mateus", url: "" }],
   title:
     "Rolibelt comercial, o melhores preços de rolamentos em atacado você encontra por aqui!",
-  description: "Loja teste feita para modelo de apresentação",
+  description:
+    "Rolamentos HCH em atacado com os melhores preços você encontra por aqui",
 };
 
 export default function RootLayout({
